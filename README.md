@@ -18,7 +18,7 @@ fun main(){
 
 ### Mambers (variables ,functions)
 
-'''kotlin
+'''
 class Car {
     var model :String = ""
     var serialNumber :Int = 0
@@ -45,5 +45,4 @@ fun main() {
     car1.canIBuyIt(500.5)
 
 }
-
 '''
