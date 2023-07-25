@@ -4,7 +4,7 @@ package kotlinoop
 class Car {
     var model :String = ""
     var serialNumber :Int = 0
-    var min :Double = 10000.0
+    var minPrice :Double = 10000.0
     
     
     fun details (){
@@ -12,8 +12,8 @@ class Car {
     }
     
     fun canIBuyIt (price :Double){
-        if (price < min){
-            println("You cant buy $model becouse is low price is $min")
+        if (price < minPrice){
+            println("You cant buy $model becouse low price is $minPrice")
         }else
             println("You can Buy it now")
     }
