@@ -5,7 +5,7 @@ You Can See The Full Course [here]()
 
 ## Class's in Kotlin
 
-'''kotlin
+'''
     class ClassName {
     
     }
