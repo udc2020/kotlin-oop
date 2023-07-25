@@ -5,7 +5,7 @@ You Can See The Full Course [here]()
 
 ## Class's in Kotlin
 
-'''
+```kotlin
     class ClassName {
     
     }
@@ -14,11 +14,11 @@ You Can See The Full Course [here]()
         // Create Object of class
         var c1 = ClassName()
     }
-'''
+```
 
 ### Mambers (variables ,functions)
 
-'''kotlin
+```kotlin
     class Car {
         // Vars Mambers
         var model :String = ""
@@ -46,4 +46,4 @@ You Can See The Full Course [here]()
         car1.canIBuyIt(500.5)
     
     }
-'''
+```
