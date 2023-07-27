@@ -114,7 +114,7 @@ class Humen(name: String) {
         when (country) {
             "dz" -> return "+213"
             "tn" -> return "+212"
-            "mr" -> return "+211"
+            "ma" -> return "+211"
             else -> return "unknown"
         }
     }
@@ -128,7 +128,7 @@ fun main() {
     val h1: Humen = Humen("abdlkrim")
     val h2: Humen = Humen("kamal")
 
-    println("${h1.fName} Country Code is ${h1.countryCode("ml")}")
+    println("${h1.fName} Country Code is ${h1.countryCode("ma")}")
     println("${h2.fName} Country Code is ${h2.countryCode("dz")}")
 
     println("Password : ${h1.passwordHasher()}")
@@ -161,7 +161,7 @@ open class Humen(name: String) {
         when (country) {
             "dz" -> return "+213"
             "tn" -> return "+212"
-            "mr" -> return "+211"
+            "ma" -> return "+211"
             else -> return "unknown"
         }
     }
@@ -215,10 +215,10 @@ open class Humen(name: String) {
     }
 
     public fun countryCode(country: String): String {
-        when (country) {
+       when (country) {
             "dz" -> return "+213"
             "tn" -> return "+212"
-            "mr" -> return "+211"
+            "ma" -> return "+211"
             else -> return "unknown"
         }
     }
@@ -277,10 +277,10 @@ open class Humen(name: String,_age:Int) {
     }
 
     public fun countryCode(country: String): String {
-        when (country) {
+       when (country) {
             "dz" -> return "+213"
             "tn" -> return "+212"
-            "mr" -> return "+211"
+            "ma" -> return "+211"
             else -> return "unknown"
         }
     }
