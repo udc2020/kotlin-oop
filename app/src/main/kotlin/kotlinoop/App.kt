@@ -1,30 +1,22 @@
-
 package kotlinoop
 
-class Car {
-    var model :String = ""
-    var serialNumber :Int = 0
-    var minPrice :Double = 10000.0
-    
-    
-    fun details (){
-        println("$model : $serialNumber")
+
+class Humen (){
+
+    constructor(id:Long):this(){
+        println(id)
     }
-    
-    fun canIBuyIt (price :Double){
-        if (price < minPrice){
-            println("You cant buy $model becouse low price is $minPrice")
-        }else
-            println("You can Buy it now")
+    constructor(id:String):this(){
+        println(id)
     }
+
+
 }
 
+
+
 fun main() {
-    val car1 = Car()
-    car1.model = "BMW"
-    car1.serialNumber = 14461
-    println("car1\n model : ${car1.model} \n ${car1.serialNumber} ")
-    car1.details()
-    car1.canIBuyIt(500.5)
+    val h1: Humen = Humen(56457489)
+    val h2: Humen = Humen("5cqd6qf45748")
 
 }
